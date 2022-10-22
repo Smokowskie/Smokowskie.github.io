@@ -27,6 +27,8 @@ ul
 {
   margin-left: 500px;
   font-size: 15pt;
+  list-style-type: square;
+  background-color: rgb(211, 211, 211);
 }
 p
 {
