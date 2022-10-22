@@ -11,7 +11,7 @@ h1
 }
 section
 {
-  color: var(--favcolor);
+  color: rgb(255,255,255);
   background-repeat: no-repeat;
   float: right;
 }
