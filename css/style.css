@@ -18,9 +18,8 @@ h2
 }
 img
 {
-  margin-left: 500px;
-}
-ul
-{
-  margin-left: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
