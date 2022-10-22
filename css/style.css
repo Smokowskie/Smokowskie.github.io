@@ -26,17 +26,10 @@ img
 }
 ul
 {
-  position: relative;
-  display: block;
-  text-align: center;
+  margin-left: 500px;
   font-size: 12pt;
   list-style-type: square;
   background-color: rgb(211, 211, 211);
-}
-li
-{
-  width: auto; 
-  display: inline;
 }
 p
 {
