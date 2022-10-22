@@ -27,9 +27,12 @@ img
 ul
 {
   margin-left: 500px;
-  font-size: 12pt;
   list-style-type: square;
   background-color: rgb(211, 211, 211);
+}
+li
+{
+  font-size: 12pt;
 }
 p
 {
