@@ -42,3 +42,9 @@ body
 {
   background-color: rgb(220, 220, 220);
 }
+section
+{
+  border: 3px solid black;
+  margin: 20px;
+  padding: 10px;
+}
