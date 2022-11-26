@@ -9,36 +9,40 @@
   <body>
     <h1>Google Super Search</h1>
     <form action=" https://www.google.com/search">
-      <div>
-      <label for="query">Description: </label>
-      <input type="text" id="query" name="as_q" placeholder="Enter your search description." size="25">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3" display-1">
+              <label for="query">Description: </label>
+              <input type="text" id="query" name="as_q" placeholder="Enter your search description." size="15">
+          </div>
+            <div class="col-md-3" display-1">
+               <label for="site">Site: </label>
+               <input type="text" id="site" name="as_sitesearch" placeholder="Enter the site you wish to search." size="25">
+            </div>
+              <div class="col-md-3" display-1">
+                <label for="images">Images Only</label>
+                <input type="checkbox" id="images" name="tbm" value="isch">
+              </div>
+                 <div class="col-md-3" display-1">
+                    <label for="shopping">Merchandise</label>
+                     <input type="checkbox" id="shopping" name="tbm" value="shop">
+                  </div>
+                     <div class="col-md-3" display-1">
+                          <label for="as_filetype">FileType:</label>
+                          <select name="as_filetype">
+                          <option value=""></option>
+                          <option value="PDF">Adobe PDF Document</option>
+                          <option value="DOCx">Microsoft Word Document</option>
+                          <option value="HTML"> Web Page</option>
+                          <option value=""></option>
+                          <option value="JPG">Compressed Image</option>
+                          <option value="PNG">Uncompressed Image</option>
+                          <option value="GIF">Animation</option>
+                      </div>
+             </div>
+       </select>
       </div>
-      <div>
-      <label for="site">Site: </label>
-      <input type="text" id="site" name="as_sitesearch" placeholder="Enter the site you wish to search." size="35">
-      </div>
-      <div>
-      <label for="images">Images Only</label>
-      <input type="checkbox" id="images" name="tbm" value="isch">
-      </div>
-      <div>
-      <label for="shopping">Merchandise</label>
-      <input type="checkbox" id="shopping" name="tbm" value="shop">
-      </div>
-      <div>
-        <label for="as_filetype">FileType:</label>
-          <select name="as_filetype">
-            <option value=""></option>
-            <option value="PDF">Adobe PDF Document</option>
-            <option value="DOCx">Microsoft Word Document</option>
-            <option value="HTML"> Web Page</option>
-            <option value=""></option>
-            <option value="JPG">Compressed Image</option>
-            <option value="PNG">Uncompressed Image</option>
-            <option value="GIF">Animation</option>
-          </select>
-      </div>
-      <div>
+      <div class="col-md-3" display-1">
       <input type="submit" value="Search">
       </div>
     </form>
