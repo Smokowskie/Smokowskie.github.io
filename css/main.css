@@ -42,3 +42,8 @@ body
 {
   background-color: rgb(220, 220, 220);
 }
+iframe
+{
+  width: 90vw;
+  height: 50.63vw;
+}
